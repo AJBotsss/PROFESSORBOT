@@ -4,11 +4,6 @@ from pyrogram import Client, filters
 
 CMD = ["/", "."]
 
-@Client.on_message(filters.command("alive", CMD))
-async def check_alive(_, message):
-    await message.reply_text("Not dead but still here...  You are not the same as before...😔 ഇടക്ക് എങ്കിലും ചുമ്മാ ഒന്ന് /start ചെയ്തു നോക്ക്..🙂")
-
-
 @Client.on_message(filters.command("ping", CMD))
 async def ping(_, message):
     start_t = time.time()
