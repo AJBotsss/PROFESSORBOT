@@ -1,6 +1,5 @@
-# https://github.com/odysseusmax/animated-lamp/blob/master/bot/database/database.py
 import motor.motor_asyncio
-from info import DATABASE_NAME, DATABASE_URI, IMDB, IMDB_TEMPLATE, MELCOW_NEW_USERS, P_TTI_SHOW_OFF, SINGLE_BUTTON, SPELL_CHECK_REPLY, PROTECT_CONTENT
+from info import DATABASE_NAME, DATABASE_URL, IMDB, IMDB_TEMPLATE, MELCOW_NEW_USERS, P_TTI_SHOW_OFF, SINGLE_BUTTON, SPELL_CHECK_REPLY, PROTECT_CONTENT, MAX_RIST_BTNS, IMDB_DELET_TIME                  
 
 class Database:
     
@@ -109,7 +108,7 @@ class Database:
         await self.grp.update_one({'id': int(id)}, {'$set': {'settings': settings}})
         
     
-    async def get_settings(self, id):
+    async def get_settings(self, id):       
         default = {
             'button': SINGLE_BUTTON,
             'botpm': P_TTI_SHOW_OFF,
@@ -117,13 +116,13 @@ class Database:
             'imdb': IMDB,
             'spell_check': SPELL_CHECK_REPLY,
             'welcome': MELCOW_NEW_USERS,
-            'template': IMDB_TEMPLATE
+            'template': IMDB_TEMPLATE            
         }
         chat = await self.grp.find_one({'id':int(id)})
         if chat:
             return chat.get('settings', default)
         return default
-    
+
 
     async def disable_chat(self, chat, reason="No Reason"):
         chat_status=dict(
@@ -146,4 +145,4 @@ class Database:
         return (await self.db.command("dbstats"))['dataSize']
 
 
-db = Database(DATABASE_URI, DATABASE_NAME)
+db = Database(DATABASE_URL, DATABASE_NAME)
