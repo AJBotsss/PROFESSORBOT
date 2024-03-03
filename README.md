@@ -95,7 +95,7 @@ broadcast - to broadcast a message to all users
 
 ## TELAGRAM SUPPORT 
 
-* [![SSABOTS](https://img.shields.io/static/v1?label=MH&message=BOTZ&color=critical)](https://t.me/ssabots2)
+* [![SSABOTS](https://img.shields.io/static/v1?label=SSA&message=BOTS&color=critical)](https://t.me/ssabots2)
 
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
