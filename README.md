@@ -1,18 +1,18 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝗪𝗘𝗟𝗖𝗢𝗠+𝗧𝗢+𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑+𝐁𝐎𝐓!;𝗖𝗥𝗘𝗔𝗧𝗘𝗗+𝗕𝗬+𝗧𝗘𝗔𝗠+Private+𝗕𝗢𝗧z!;𝗔+ALL+IN+One+𝗕𝗢𝗧!)</p>
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝗪𝗘𝗟𝗖𝗢𝗠+𝗧𝗢+𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑+𝐁𝐎𝐓!;𝗔+ALL+IN+One+𝗕𝗢𝗧!)</p>
 <p align="center">
-  <img src="https://telegra.ph/file/c6221aad7c6e89f7d2342.jpg" alt="PROFESSOR BOT LOGO">
+  <img src="https://graph.org/file/2d6b364198ec5cbccea64.jpg" alt="PROFESSOR BOT LOGO">
 </p>
 <h1 align="center">
   <b> 𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 𝐁𝐎𝐓</b>
 </h1>
 
-[![Stars](https://img.shields.io/github/stars/Private-Botz/PROFESSOR-BOT?style=flat-square&color=yellow)](https://github.com/Private-Botz/PROFESSOR-BOT/stargazers)
-[![Forks](https://img.shields.io/github/forks/Private-Botz/PROFESSOR-BOT?style=flat-square&color=orange)](https://github.com/Private-Botz/PROFESSOR-BOT/fork)
-[![Size](https://img.shields.io/github/repo-size/Private-Botz/PROFESSOR-BOT?style=flat-square&color=green)](https://github.com/Private-Botz/PROFESSOR-BOT)   
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Private-Botz/PROFESSOR-BOT)   
-[![Contributors](https://img.shields.io/github/contributors/Private-Botz/PROFESSOR-BOT?style=flat-square&color=green)](https://github.com/Private-Botz/PROFESSOR-BOT/graphs/contributors)
-[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/Private-Botz/PROFESSOR-BOT/blob/main/LICENSE)
-[![Sparkline](https://stars.medv.io/Private-Botz/PROFESSOR-BOT.svg)](https://stars.medv.io/Private-Botz/PROFESSOR-BOT)
+[![Stars](https://img.shields.io/github/stars/AJBotss/PROFESSOR-BOT?style=flat-square&color=yellow)](https://github.com/AJBotss/PROFESSOR-BOT/stargazers)
+[![Forks](https://img.shields.io/github/forks/AJBotss/PROFESSOR-BOT?style=flat-square&color=orange)](https://github.com/github.com/AJBotss/PROFESSOR-BOT/fork)
+[![Size](https://img.shields.io/github/repo-size/AJBotss/PROFESSOR-BOT?style=flat-square&color=green)](https://github.com/AJBotss/PROFESSOR-BOT)   
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/AJBotss/PROFESSOR-BOT)   
+[![Contributors](https://img.shields.io/github/contributors/AJBotss/PROFESSOR-BOT?style=flat-square&color=green)](https://github.com/AJBotss/PROFESSOR-BOT/graphs/contributors)
+[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/AJBotss/PROFESSOR-BOT/blob/main/LICENSE)
+[![Sparkline](https://stars.medv.io/AJBotss/PROFESSOR-BOT.svg)](https://stars.medv.io/AJBotss/PROFESSOR-BOT)
 
 
 
@@ -53,7 +53,7 @@
 
 ## Deploy to Koyeb
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Private-Botz/PROFESSOR-BOT&env[BOT_TOKEN]&env[API_ID]&env[API_HASH]&env[CHANNELS]&env[ADMINS]&env[PICS]&env[LOG_CHANNEL]&env[AUTH_CHANNEL]&env[MAX_RIST_BTNS]=10&env[CUSTOM_FILE_CAPTION]&env[DATABASE_URI]&env[DATABASE_NAME]=Private_Botz&env[COLLECTION_NAME]=Telegram_files&env[SUPPORT_CHAT]&env[IMDB]=True&env[IMDB_TEMPLATE]&env[IMDB_DELET_TIME]=900&env[SINGLE_BUTTON]=True&env[START_MESSAGE]&env[FORCE_SUB_TEXT]&env[AUTH_GROUPS]&env[WELCOM_PIC]&env[WELCOM_TEXT]&env[BUTTON_LOCK_TEXT]&env[PMFILTER]=True&env[G_FILTER]=True&env[BUTTON_LOCK]=True&env[RemoveBG_API]&env[P_TTI_SHOW_OFF]=True&run_command=python%20bot.py&branch=main&name=mr-rofessor)              
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/AJBotss/PROFESSOR-BOT&env[BOT_TOKEN]&env[API_ID]&env[API_HASH]&env[CHANNELS]&env[ADMINS]&env[PICS]&env[LOG_CHANNEL]&env[AUTH_CHANNEL]&env[MAX_RIST_BTNS]=10&env[CUSTOM_FILE_CAPTION]&env[DATABASE_URI]&env[DATABASE_NAME]=AJBotss&env[COLLECTION_NAME]=Telegram_files&env[SUPPORT_CHAT]&env[IMDB]=True&env[IMDB_TEMPLATE]&env[IMDB_DELET_TIME]=900&env[SINGLE_BUTTON]=True&env[START_MESSAGE]&env[FORCE_SUB_TEXT]&env[AUTH_GROUPS]&env[WELCOM_PIC]&env[WELCOM_TEXT]&env[BUTTON_LOCK_TEXT]&env[PMFILTER]=True&env[G_FILTER]=True&env[BUTTON_LOCK]=True&env[RemoveBG_API]&env[P_TTI_SHOW_OFF]=True&run_command=python%20bot.py&branch=main&name=mr-rofessor)              
 
 ## Deploy to Railway
 
@@ -61,7 +61,7 @@
 
 ## Deploy to Heroku 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Private-Botz/PROFESSOR-BOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AJBotss/PROFESSOR-BOT)
 
 ## Commands
 ```
@@ -95,7 +95,7 @@ broadcast - to broadcast a message to all users
 
 ## TELAGRAM SUPPORT 
 
-* [![MH BOTZ](https://img.shields.io/static/v1?label=MH&message=BOTZ&color=critical)](https://t.me/MH_botz_updates)
+* [![SSABOTS](https://img.shields.io/static/v1?label=MH&message=BOTZ&color=critical)](https://t.me/ssabots2)
 
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
