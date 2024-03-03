@@ -63,6 +63,7 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AJBotss/PROFESSOR-BOT)
 
+
 ## Commands
 ```
 start - check bot alive
