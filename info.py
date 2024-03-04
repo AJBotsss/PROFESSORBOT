@@ -42,9 +42,9 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://BOTMAKERS6:BOTMAKERS6@cluster0.a2dbeeo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+FILE_DB_URL = environ.get("FILE_DB_URL", DATABASE_URL)
+FILE_DB_NAME = environ.get("FILE_DB_NAME", DATABASE_NAME)
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-
-
 # url shortner
 SHORT_URL = environ.get("Tulinks.online")
 SHORT_API = environ.get("757df607ee64875bd63c4ab0be3f6990740ecafe")
