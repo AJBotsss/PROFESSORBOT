@@ -19,9 +19,9 @@ def is_enabled(value, default):
 # Bot information
 PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+API_ID = int(environ.get('API_ID', '20262762'))
+API_HASH = environ.get('API_HASH', 'da1255984e0378c97438d78ef3e3bc0c')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7017939123:AAH_fV-f8Lv6bBv280vUdwEm6d5QWdA_ZIo')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 86400))
@@ -30,11 +30,11 @@ PICS = (environ.get('PICS' ,'https://graph.org/file/2d6b364198ec5cbccea64.jpg'))
 BOT_START_TIME = time()
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1511443048').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002105059053').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL')
+auth_channel = environ.get('AUTH_CHANNEL','-1002127281946')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -65,7 +65,7 @@ BUTTON_LOCK = bool(environ.get("BUTTON_LOCK", True))
 # Others
 IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "300"))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001913570762))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '-4188593618')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '-1002132925489')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
